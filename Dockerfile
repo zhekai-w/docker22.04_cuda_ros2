@@ -113,6 +113,7 @@ RUN apt update && apt install -y \
     # realsense
     librealsense2-utils \
     librealsense2-dev \
+    ros-humble-realsense2* \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
